@@ -18,6 +18,7 @@ if (!isset($_SESSION['authorized'])) // перевіряємо правильн�
 <body>
     <h1>Secret info</h1>
     <?php
+    echo "Привіт".$_SESSION['login']."<br>";
 print_r($_SESSION); // виводимо змінні сесії ?>
     <br><a href="index.php">На главную</a>
 
